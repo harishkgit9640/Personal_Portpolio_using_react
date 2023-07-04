@@ -20,7 +20,7 @@ li {
 }
 
 .btn {
-  padding: 15px 30px;
+  padding: 10px 30px;
   background: orange;
   color: #fff;
   cursor: pointer;
@@ -35,9 +35,9 @@ li {
 }
 
 .btn:hover {
-  background: #ddd;
+  background: #2e2e2e;
   color: #fff;
-  transition: 2s linear;
+  transition: 0.2s linear;
 }
 
 body {

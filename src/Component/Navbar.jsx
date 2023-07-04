@@ -5,9 +5,20 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 const Navbar = () => {
     const [click, setClick] = useState(false);
     const hadleClick = () => { setClick(!click) };
+    const [color, setColor] = useState(false);
+
+    const changeColor = () => {
+        if (window.scrollY >= 1) {
+            setColor(true);
+        } else {
+            setColor(false);
+        }
+    }
+    window.addEventListener('scroll', changeColor);
+
     return (
         <div>
-            <div className="navbar">
+            <div className={color ? "navbar navbar-bg" : "navbar"}>
                 <div className="brand">
                     <NavLink to='/'> HK Solution </NavLink>
                 </div>
