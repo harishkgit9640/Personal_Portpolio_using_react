@@ -6,6 +6,7 @@ import Service from './routes/Service';
 import Contact from './routes/Contact';
 import Error from './routes/Error';
 import Navbar from './Component/Navbar';
+import Footer from './Component/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='*' element={<Error />} />
       </Routes>
+      <Footer />
     </>
   );
 }

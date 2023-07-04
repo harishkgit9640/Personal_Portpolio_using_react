@@ -25,7 +25,7 @@
 
 .hero .content {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -38,7 +38,7 @@
 }
 
 .content h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     padding: 1rem 0;
 }
 
