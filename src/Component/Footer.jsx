@@ -1,7 +1,7 @@
 import React from 'react'
 // import { Link } from 'react-router-dom'
 import './footer.css';
-import { FaFacebook, FaGithub, FaHome, FaInstagram, FaLinkedinIn, FaMailBulk, FaPhone, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaHome, FaInstagram, FaLinkedinIn, FaMailBulk, FaPhone, FaWhatsapp } from 'react-icons/fa';
 const Footer = () => {
     return (
         <footer>
@@ -35,7 +35,9 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-
+            <div className="copyright">
+                <p>&copy; Copyright {new Date().getFullYear()} || Made with 💘 </p>
+            </div>
         </footer>
     )
 }

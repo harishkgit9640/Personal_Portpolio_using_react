@@ -1,11 +1,11 @@
 footer {
     width: 100%;
-    padding: 6rem 0;
-    background-color: #2e2e2e;
+    padding: 4rem 0 2rem 0;
+    background-color: #111C22;
 }
 
 footer .container {
-    max-width: 1140px;
+    max-width: 1080px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -49,6 +49,15 @@ h4 {
 
 p {
     font-size: 1.2rem;
+}
+
+.copyright p {
+    border-top: 1px solid #4d4d4d;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    width: 100%;
+    text-align: center;
+    color: #4d4d4d;
 }
 
 @media screen and (max-width: 768px) {
