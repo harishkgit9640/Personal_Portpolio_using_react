@@ -1,6 +1,6 @@
 .price_card {
     width: 100%;
-    padding: 6rem 1rem;
+    padding: 1rem 1rem 4rem 1rem;
     background: #000;
 }
 
@@ -10,6 +10,12 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
+}
+
+.pricing_heading {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 2rem;
 }
 
 .card {

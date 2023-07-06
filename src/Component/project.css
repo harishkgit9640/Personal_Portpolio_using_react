@@ -10,7 +10,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 }
 
 .project_card {
