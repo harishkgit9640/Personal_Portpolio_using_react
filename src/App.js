@@ -7,7 +7,7 @@ import Contact from './routes/Contact';
 import Error from './routes/Error';
 import Navbar from './Component/Navbar';
 import Footer from './Component/Footer';
-
+import './App.css';
 function App() {
   return (
     <>
