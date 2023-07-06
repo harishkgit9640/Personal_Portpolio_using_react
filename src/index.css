@@ -21,10 +21,10 @@ li {
 
 .btn {
   padding: 10px 30px;
-  background: orange;
+  background: crimson;
   color: #fff;
   cursor: pointer;
-  border: 1px solid #fff;
+  border: 1px solid darkred;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -35,7 +35,7 @@ li {
 }
 
 .btn:hover {
-  background: #2e2e2e;
+  background: darkred;
   color: #fff;
   transition: 0.2s linear;
 }

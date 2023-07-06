@@ -1,4 +1,8 @@
-export const Data = [
+import image_1 from '../Assets/img_1.png';
+import image_2 from '../Assets/img_2.png';
+import image_3 from '../Assets/img_3.png';
+
+export const Pricing = [
     {
         id: '1',
         plane: 'Basic',
@@ -21,3 +25,30 @@ export const Data = [
         pages: '10 pages'
     }
 ];
+
+export const Projects_details = [
+    {
+        id: '1',
+        tittle: 'Netflix Clone',
+        img: image_1,
+        desc: "This is a clone of Netflix using react.js",
+        view: "url",
+        source: "url"
+    },
+    {
+        id: '2',
+        tittle: 'E-commerce',
+        img: image_2,
+        desc: "This is complete e-commerce website",
+        view: "url",
+        source: "url"
+    },
+    {
+        id: '3',
+        tittle: 'Personal Portfolio',
+        img: image_3,
+        desc: "This is complete personal portfolio",
+        view: "url",
+        source: "url"
+    }
+]

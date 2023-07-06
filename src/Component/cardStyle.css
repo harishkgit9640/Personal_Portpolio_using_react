@@ -19,6 +19,7 @@
     padding: 1rem;
 }
 
+
 .card h3 {
     text-transform: capitalize;
     font-size: 2rem;
@@ -42,7 +43,7 @@
     display: block;
 }
 
-.btn {
+.card .btn {
     display: block;
     width: 80%;
     margin: 2rem auto;
@@ -52,8 +53,8 @@
     background-color: #141414;
 }
 
-@media screen and (min-width: 768px) {
-    .card-container {
+@media screen and (max-width: 768px) {
+    .card_container {
         max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;
