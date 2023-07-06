@@ -32,23 +32,23 @@ export const Projects_details = [
         tittle: 'Netflix Clone',
         img: image_1,
         desc: "This is a clone of Netflix using react.js",
-        view: "url",
-        source: "url"
+        view: "https://netflixclone2023.netlify.app/",
+        source: "https://github.com/harishkgit9640/Netflix_clone"
     },
     {
         id: '2',
         tittle: 'E-commerce',
         img: image_2,
         desc: "This is complete e-commerce website",
-        view: "url",
-        source: "url"
+        view: "https://hksolution.in/",
+        source: "https://github.com/harishkgit9640/Complete_Ecommerce_Website"
     },
     {
         id: '3',
         tittle: 'Personal Portfolio',
         img: image_3,
         desc: "This is complete personal portfolio",
-        view: "url",
-        source: "url"
+        view: "https://harishkgit9640.github.io/Personal_Portfolio/",
+        source: "https://github.com/harishkgit9640/Personal_Portfolio"
     }
 ]
